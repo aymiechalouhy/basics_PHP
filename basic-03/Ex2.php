@@ -1,18 +1,13 @@
 <?php
-$num = 3;
-$factorial = 1;
 
-while ($factorial <= $num){
-  
-  $num = $num * $factorial;
-  $factorial++;
+$x = 5;
+echo "Factorial of $x is : ";
 
+$nb = 1;
+while ($x > 1) {
+    $nb *= $x;
+    $x--;
 }
 
-//3*1=3     3*2=6   
-//fa  =2     fa=3
-//
-
-
-echo "The factorial of $num is $factorial";
+echo $nb;
 ?>
