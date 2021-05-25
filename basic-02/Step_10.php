@@ -7,6 +7,7 @@ function ispalindrome($word){
     return "$word isn't palindrome";
 }
 echo ispalindrome(madam)."<br>";
-echo ispalindrome(aymie);
+echo ispalindrome(Aymie)."<br>";
+echo ispalindrome(Chalouhy);
 
 ?>
