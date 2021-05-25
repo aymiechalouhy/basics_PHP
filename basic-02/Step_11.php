@@ -11,6 +11,7 @@ function isprime($number) {
       return "$number is prime";
     }
   }
-    echo isprime(25)."<br>";
-  echo isprime(3);
+  echo isprime(25)."<br>";
+  echo isprime(3)."<br>";
+  echo isprime(7);
 ?>
